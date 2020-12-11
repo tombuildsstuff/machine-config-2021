@@ -26,8 +26,9 @@ zplug load
 
 ZSH_THEME="terminalparty"
 
-PROMPT='%(?,%{$fg[green]%},%{$fg[white]%})%{$fg[gray]%}%2~%{$fg[yellow]%}$(git_prompt_info) %{$fg[white]%}\$ '
-RPS1='%{$fg[yellow]%}%t%{$reset_color%}'
+NEWLINE=$'\n'
+PROMPT='%{$fg[yellow]%}%t%  %(?,%{$fg[green]%},%{$fg[white]%})%{$fg[gray]%}%2~${NEWLINE} %{$fg[white]%}\$ '
+RPS1='%{$fg[yellow]%}$(git_prompt_info)'
 
 # Helper functions
 function provider() {
