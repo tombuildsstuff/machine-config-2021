@@ -1,5 +1,6 @@
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
 export GOPATH=$HOME/code
+export PATH=$PATH:$HOME/homebrew/bin
 export PATH=$PATH:$HOME/code/bin
 export PATH=$PATH:$HOME/bin
 export TF_SCHEMA_PANIC_ON_ERROR=1
