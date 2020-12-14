@@ -9,6 +9,7 @@ export ZPLUG_HOME=$HOME/.zplug
 # Lazy
 alias freewifi="sudo ifconfig en0 ether `openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'`"
 alias mifi="huawei-e5573-mifi-cli"
+alias tf="terraform"
 alias tfyolo="terraform apply --auto-approve"
 
 # Laptop Usability
