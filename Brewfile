@@ -65,16 +65,18 @@ brew "vault"
 cask "vlc"
 cask "zoom"
 
-mas "1blocker", id:1107421413
+mas "1blocker", id:1365531024
 mas "1password", id: 1333542190
 mas "aware", id: 1082170746
 mas "cinch", id: 412529613
 mas "clear", id: 504544917
 mas "deliveries", id: 290986013
 mas "fantastical", id: 975937182
+mas "jsonpeep", id: 1458969831
 mas "keynote", id: 409183694
 mas "iawriter", id: 775737590
-mas "monodraw", id: 920404675
+#mas "monodraw", id: 920404675
+mas "refined-github", id: 1519867270
 mas "spark", id: 1176895641
 mas "tweetbot", id: 1384080005
 mas "watchdog", id: 734258109
