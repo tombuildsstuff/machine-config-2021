@@ -5,6 +5,8 @@ export PATH=$PATH:$HOME/code/bin
 export PATH=$PATH:$HOME/bin
 export TF_SCHEMA_PANIC_ON_ERROR=1
 export ZPLUG_HOME=$HOME/.zplug
+export AZURE_CLI_DISABLE_CONNECTION_VERIFICATION=1
+export JAVA_HOME=$HOME/Library/Java/JavaVirtualMachines/corretto-11.0.2/Contents/Home
 
 # Lazy
 alias freewifi="sudo ifconfig en0 ether `openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'`"
@@ -15,6 +17,9 @@ alias tfyolo="terraform apply --auto-approve"
 # Laptop Usability
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
+
+# Files
+ulimit -n 10240
 
 # Plugins
 source $ZPLUG_HOME/init.zsh
@@ -34,5 +39,5 @@ RPS1='%{$fg[yellow]%}$(git_prompt_info)'
 
 # Helper functions
 function provider() {
-   cd $GOPATH/src/github.com/terraform-providers/terraform-provider-$1
+   cd $GOPATH/src/github.com/hashicorp/terraform-provider-$1
 }
