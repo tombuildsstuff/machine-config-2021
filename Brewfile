@@ -72,6 +72,7 @@ mas "cinch", id: 412529613
 mas "clear", id: 504544917
 mas "deliveries", id: 290986013
 mas "fantastical", id: 975937182
+mas "flighty", id: 1358823008
 mas "jsonpeep", id: 1458969831
 mas "keynote", id: 409183694
 mas "iawriter", id: 775737590
