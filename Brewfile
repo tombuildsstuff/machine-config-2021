@@ -31,6 +31,7 @@ brew "graphviz"
 brew "gti"
 brew "htop"
 cask "iterm2"
+cask "jetbrains-toolbox"
 brew "jq"
 brew "jwt-cli"
 cask "istat-menus"
@@ -68,7 +69,7 @@ mas "1blocker", id:1365531024
 mas "1password", id: 1333542190
 mas "aware", id: 1082170746
 mas "cinch", id: 412529613
-mas "clear", id: 504544917
+#mas "clear", id: 504544917
 mas "deliveries", id: 290986013
 mas "fantastical", id: 975937182
 mas "flighty", id: 1358823008
@@ -79,7 +80,7 @@ mas "iawriter", id: 775737590
 mas "refined-github", id: 1519867270
 mas "spark", id: 1176895641
 mas "tweetbot", id: 1384080005
-mas "watchdog", id: 734258109
+#mas "watchdog", id: 734258109
 mas "xcode", id: 497799835
 mas "microsoft-remote-desktop-10", id: 1295203466
 mas "pages", id: 409201541
