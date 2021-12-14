@@ -3,10 +3,12 @@ export GOPATH=$HOME/code
 export PATH=$PATH:$HOME/homebrew/bin
 export PATH=$PATH:$HOME/code/bin
 export PATH=$PATH:$HOME/bin
+export PATH=/opt/homebrew/bin:$PATH
 export TF_SCHEMA_PANIC_ON_ERROR=1
 export ZPLUG_HOME=$HOME/.zplug
 export AZURE_CLI_DISABLE_CONNECTION_VERIFICATION=1
 export JAVA_HOME=$HOME/Library/Java/JavaVirtualMachines/corretto-11.0.2/Contents/Home
+export DOTNET_ROOT="/usr/local/opt/dotnet/libexec"
 
 # Lazy
 alias freewifi="sudo ifconfig en0 ether `openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'`"
