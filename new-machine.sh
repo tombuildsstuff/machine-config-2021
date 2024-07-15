@@ -20,7 +20,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 mkdir -p $userProfile/code/
 
-go install github.com/tombuildsstuff/huawei-e5573-mifi-cli
+echo "Installing Mifi CLI.."
+go install github.com/tombuildsstuff/huawei-e5573-mifi-cli@latest
 
 echo "SymLinking Dotfiles.."
 for filePath in "$dotFilesDir"/.*; do

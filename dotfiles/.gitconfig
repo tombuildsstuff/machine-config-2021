@@ -3,3 +3,9 @@
 
 [pull]
 	rebase = false
+[http]
+	cookiefile = /path/to/.gitcookies
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
